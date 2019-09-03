@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'TLNetWork_Example' do
-  pod 'TLNetWork', :path => '../'
+  pod 'TLNetWorkSDK', :path => '../'
 
   target 'TLNetWork_Tests' do
     inherit! :search_paths

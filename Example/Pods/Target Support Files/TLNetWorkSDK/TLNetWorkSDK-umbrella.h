@@ -20,6 +20,6 @@
 #import "TLNetManager.h"
 #import "YTKRequest+CustomHeader.h"
 
-FOUNDATION_EXPORT double TLNetWorkVersionNumber;
-FOUNDATION_EXPORT const unsigned char TLNetWorkVersionString[];
+FOUNDATION_EXPORT double TLNetWorkSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char TLNetWorkSDKVersionString[];
 
