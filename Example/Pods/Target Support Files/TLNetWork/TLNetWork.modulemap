@@ -1,0 +1,6 @@
+framework module TLNetWork {
+  umbrella header "TLNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
