@@ -16,6 +16,7 @@ FOUNDATION_EXPORT const unsigned char TLNetWorkVersionString[];
 #import <TLNetWork/ServiceBaseGetRequest.h>
 #import <TLNetWork/ServiceBasePutRequest.h>
 #import <TLNetWork/ServiceBaseDeleteRequest.h>
+#import <TLNetWork/TLNetManager.h>
 
 #else
 
@@ -26,6 +27,7 @@ FOUNDATION_EXPORT const unsigned char TLNetWorkVersionString[];
 #import "ServiceBaseGetRequest.h"
 #import "ServiceBasePutRequest.h"
 #import "ServiceBaseDeleteRequest.h"
+#import "TLNetManager.h"
 
 #endif /* __has_include */
 
