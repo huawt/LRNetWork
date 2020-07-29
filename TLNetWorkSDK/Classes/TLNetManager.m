@@ -18,7 +18,7 @@
         manager.requestSerializer.timeoutInterval = NetworkTimeout;
         manager.requestSerializer.cachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
         manager.responseSerializer = [AFJSONResponseSerializer serializer];
-        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", @"text/xml", @"text/css", nil];
+        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", @"text/css", @"application/zip", nil];
     });
     //app端设置cookie测试，语言设置用cookie,这个必须放这里，否则请求过一次再切换语言不生效
     NSString *cookieValue = [NSString stringWithFormat:@"language=%@",[[NetworkBridge sharedBridge] getMainAppCurrentLanguage]];

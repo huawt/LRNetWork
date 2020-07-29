@@ -97,7 +97,7 @@
 -(instancetype)wt_init
 {
     [self wt_init];
-    self.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", @"text/xml", @"text/css", nil];
+    self.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", @"text/css", @"application/zip", nil];
     return self;
 }
 @end;
