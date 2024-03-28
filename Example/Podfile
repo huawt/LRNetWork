@@ -2,7 +2,4 @@ use_frameworks!
 platform :ios, '12.0'
 target 'LRNetWork_Example' do
   pod 'LRNetWorkSDK', :path => '../'
-  target 'LRNetWork_Tests' do
-    inherit! :search_paths
-  end
 end

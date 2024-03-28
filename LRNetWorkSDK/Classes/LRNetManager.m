@@ -5,10 +5,10 @@
 + (instancetype)defaultManager
 {
     static dispatch_once_t onceToken;
-    static TLNetManager *manager;
+    static LRNetManager *manager;
     dispatch_once(&onceToken, ^{
         NSString *baseUrl = [[NetworkBridge sharedBridge] getMainAppServerBaseUrl];
-        manager = [[TLNetManager alloc] initWithBaseURL:[NSURL URLWithString:baseUrl]];
+        manager = [[LRNetManager alloc] initWithBaseURL:[NSURL URLWithString:baseUrl]];
         manager.securityPolicy.allowInvalidCertificates = YES;
         manager.securityPolicy.validatesDomainName = NO;
         manager.requestSerializer.timeoutInterval = NetworkTimeout;
