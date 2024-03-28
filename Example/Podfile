@@ -1,13 +1,8 @@
 use_frameworks!
-
-platform :ios, '8.0'
-
-target 'TLNetWork_Example' do
-  pod 'TLNetWorkSDK', :path => '../'
-
-  target 'TLNetWork_Tests' do
+platform :ios, '12.0'
+target 'LRNetWork_Example' do
+  pod 'LRNetWorkSDK', :path => '../'
+  target 'LRNetWork_Tests' do
     inherit! :search_paths
-
-    
   end
 end
